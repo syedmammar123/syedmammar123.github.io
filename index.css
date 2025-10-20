@@ -205,6 +205,23 @@ header.scrolled {
     z-index: -1;
 }
 
+.image-black-white-animate {
+    animation: colorShift 5s infinite alternate ease-in-out;
+  }
+
+  @keyframes colorShift {
+    0% {
+      filter: grayscale(0%);
+    }
+    50% {
+      filter: grayscale(100%);
+    }
+    100% {
+      filter: grayscale(0%);
+    }
+  }
+
+
 .social-icons {
     display: flex;
     gap: 1rem;
