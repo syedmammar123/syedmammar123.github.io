@@ -152,6 +152,7 @@ header.scrolled {
     color: var(--gray);
     margin-bottom: 2rem;
     max-width: 500px;
+    min-height: calc(1.7em * 2);
 }
 
 .btn {
@@ -965,7 +966,11 @@ footer {
     html {
         font-size: 14px;
     }
-    
+
+    .hero-text p {
+        min-height: calc(1.7em * 4);
+    }
+
     .nav-links {
         position: fixed;
         top: 70px;
